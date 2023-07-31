@@ -10,8 +10,9 @@ game.innerHTML = html;
 let player1 = true;
 let player2 = false;
 
-game.addEventListener('click', () => {
+game.addEventListener('click', (event) => {
+    target = event.target;
     if (player1) {
-        
+        target.c
     }
 });
