@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-bottom: 0.1rem;
+}
+
+.player1 {
+    color: red;
+    display: flex;
+    align-items: center;
+
+}
+
+.player2 {
+    color: blue;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bubble {
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 2px;
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
